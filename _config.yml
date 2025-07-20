@@ -1,0 +1,11 @@
+# Site settings
+title: Chip Does App
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Chip really does App
+baseurl: "/site/" # the subpath of your site, e.g. /blog/
+url: "https://chipdoes.app" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:title:output_ext
