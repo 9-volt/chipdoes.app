@@ -2,8 +2,39 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Welcome</h1>
+<div class="container-lg px-3 my-5 markdown-body" style="
+  font-family: sans-serif;
+  color: #3c3c3c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+">
+    
+      <p style="
+  font-weight: bold;
+  margin: 5px;
+  background: linear-gradient(
+    to right, #ff0000 10%, #ff7f00 20%, #ffff00 40%, #00ff00 60%, #0000ff 80%, #4b0082 90%, #9400d3 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: rainbow-text 5s ease-in-out infinite alternate;
+  display: inline-block;
+  font-size: 100px;
+  background-position: 200% 50%;
+  ">
+  Happy Birthday!
+</p>
+<style>
+  @keyframes rainbow-text {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+  }
+</style>
 
 </div>
